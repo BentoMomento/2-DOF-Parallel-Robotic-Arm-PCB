@@ -1,4 +1,5 @@
 ### Altium ###
+
 # Previews Folders
 **/__Previews/
 
@@ -22,3 +23,38 @@ Project Outputs*/
 
 # Project hierarchy auto-generated file
 *.PrjPcbStructure
+
+# Additional Altium Temp Files
+*.PrjPCBVariants
+*.log
+*.tmp
+*.Backups/
+*.ProjectHistory/
+
+# Output Job Files
+/OutputJob/*.OutJob
+
+# Simulation and Library Cache
+/Simulation/
+*.SimView
+*.Netlist
+*.SchDocView
+*.SVNCache
+
+# Backups and Autosaves
+*~Backup
+*_autosave.*
+
+# Version Control and Backup Subfolders (if generated)
+@Backup
+.SVNCache
+
+# User-specific settings (can vary across team members)
+*.ini
+*.cfg
+*.user
+*.workspace
+
+# Windows System Files
+Thumbs.db
+.DS_Store
